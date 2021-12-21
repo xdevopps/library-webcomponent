@@ -1,7 +1,5 @@
-import { Timer } from "types";
-
-export class XdTimer extends HTMLElement {  
-	timer: Timer;
+export class Timer extends HTMLElement {  
+	timer: TimerType;
 	isRender: boolean;
 	
 	constructor(){
@@ -43,3 +41,5 @@ export class XdTimer extends HTMLElement {
 			this.render()
 	}
 }
+
+export default customElements.define('xd-timer', Timer)

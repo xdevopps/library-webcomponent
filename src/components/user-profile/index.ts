@@ -1,1 +1,0 @@
-export { XdUser } from './User'
