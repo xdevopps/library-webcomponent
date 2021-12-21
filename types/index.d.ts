@@ -1,4 +1,4 @@
-export interface User{
+interface UserType{
     firstName : string,
     lastName: string,
     age : string,
@@ -8,7 +8,7 @@ export interface User{
     picture : string,
 }
 
-interface Timer{
+interface TimerType{
 	year?: string,
     month?: string,
     day?: string,
@@ -17,3 +17,5 @@ interface Timer{
     minute?: string,
     timeZoneName?: string
 }
+
+declare function renderTemplate(this: Window, ...args: any): string
