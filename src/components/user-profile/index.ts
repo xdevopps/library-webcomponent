@@ -1,1 +1,1 @@
-export { UserProfile } from './User'
+export { XdUser } from './User'

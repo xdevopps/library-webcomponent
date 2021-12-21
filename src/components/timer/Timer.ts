@@ -1,15 +1,7 @@
-interface TimerType{
-	year?: string,
-    month?: string,
-    day?: string,
-    weekday?: string,
-    hour?: string,
-    minute?: string,
-    timeZoneName?: string
-}
+import { Timer } from "types";
 
-export class Timer extends HTMLElement {  
-	timer: TimerType;
+export class XdTimer extends HTMLElement {  
+	timer: Timer;
 	isRender: boolean;
 	
 	constructor(){

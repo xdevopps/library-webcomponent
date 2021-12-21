@@ -1,1 +1,1 @@
-export{ Card } from './Card'
+export{ XdCard } from './Card'

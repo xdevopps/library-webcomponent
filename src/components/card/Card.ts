@@ -1,4 +1,4 @@
-export class Card extends HTMLElement{
+export class XdCard extends HTMLElement{
 
 	constructor(){
 		super();

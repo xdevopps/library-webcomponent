@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
-  "types": "./types/index.d.ts",
-  "files": [
-    "dist",
-    "lib"
-  ],
   "scripts": {
     "serve": "http-server ./dist -p 8080",
     "build": "webpack",

@@ -7,3 +7,13 @@ export interface User{
     phone : string,
     picture : string,
 }
+
+interface Timer{
+	year?: string,
+    month?: string,
+    day?: string,
+    weekday?: string,
+    hour?: string,
+    minute?: string,
+    timeZoneName?: string
+}

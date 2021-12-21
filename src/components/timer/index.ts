@@ -1,1 +1,1 @@
-export { Timer } from './Timer'
+export { XdTimer } from './Timer'

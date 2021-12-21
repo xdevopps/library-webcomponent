@@ -1,3 +1,3 @@
-export { Timer } from './timer';
-export { Card } from './card';
-export { UserProfile } from './user-profile'
+export { XdTimer } from './timer';
+export { XdCard } from './card';
+export { XdUser } from './user-profile'

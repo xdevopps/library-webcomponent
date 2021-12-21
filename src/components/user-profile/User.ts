@@ -1,6 +1,7 @@
+import { Base } from "@/templates";
 import { User } from "types";
 
-export class UserProfile extends HTMLElement{
+export class XdUser extends Base{
     user : User;
     isRender: boolean;
 
